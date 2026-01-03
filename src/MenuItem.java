@@ -4,20 +4,14 @@ public class MenuItem {
 
     public MenuItem(String name, int price){
         this.name = name;
-        setPrice(price);
-    }
-
-    public String getName() {
-        return name;
+        this.price = price;
     }
 
     public int getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
-        if (price >= 0) {
-            this.price = price;
-        }
+    public String getName() {
+        return name;
     }
 }

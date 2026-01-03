@@ -7,11 +7,8 @@ public class Customer {
         this.name = name;
     }
 
-    public void getName() {
-        System.out.println(name);
+    public String getName() {
+        return name;
     }
 
-    public void getId() {
-        System.out.println(id);
-    }
 }
